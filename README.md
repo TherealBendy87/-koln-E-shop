@@ -1,1 +1,1 @@
-# -koln-E-shop
+Školní E-shop
