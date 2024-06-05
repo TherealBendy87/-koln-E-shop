@@ -2,7 +2,7 @@
    --color-primary: rgb(255, 0, 0);
    --background-color-outline: rgb(128, 128, 128);
    --color-secondary: rgb(139, 0, 0);
-   --background-color: 
+   --background-color: rgb(211, 211, 211)
 }
 
 .nadpis {
@@ -14,12 +14,13 @@
     color: var(--color-primary);
     display: flex;
     flex-direction: column;
+    min-width: 100%;
     justify-content: space-between;
     text-align: center
- }
+   }  
  
  body {
-    background-color: lightgray;
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,6 +32,7 @@
  main {
     text-align: center;
     font-family: "Kode Mono", monospace;
+    justify-content: end;
  }
  
  nav {
@@ -94,6 +96,7 @@ a:link {
    font-size: 24px;
    background-color: var(--background-color-outline);
 }
+
 button {
    max-width: 200px;
    max-height: 50px;
